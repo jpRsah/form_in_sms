@@ -1,0 +1,6 @@
+name: Form in SMS Module
+description: pass submited data in SMS.
+package: Custom
+
+type: module
+core: 8.x
