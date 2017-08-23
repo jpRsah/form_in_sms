@@ -13,10 +13,10 @@ function form_in_sms_form_submit($form, FormStateInterface $form_state) {
  /*
 require_once 'lib/sms.ru.php';
 
-$smsru = new SMSRU('13E9D22F-BEED-B86D-03B2-9052EB3FE30D'); // Ваш уникальный программный ключ, который можно получить на главной странице
+$smsru = new SMSRU(''); // Ваш уникальный программный ключ, который можно получить на главной странице
 
 $data = new stdClass();
-$data->to = '79515055879';
+$data->to = '';
 $data->text = $form['field_nomer_telefona']['widget']['0']['value']['#value'] .' '.$form['name']['#value'] ; // Текст сообщения
 // $data->from = ''; // Если у вас уже одобрен буквенный отправитель, его можно указать здесь, в противном случае будет использоваться ваш отправитель по умолчанию
 // $data->time = time() + 7*60*60; // Отложить отправку на 7 часов
