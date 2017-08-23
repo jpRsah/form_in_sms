@@ -1,7 +1,0 @@
-form_in_sms.content:
-  path: '/hello'
-  defaults:
-    _controller: '\Drupal\form_in_sms\Controller\HelloController::content'
-    _title: 'Hello World'
-  requirements:
-    _permission: 'access content'
